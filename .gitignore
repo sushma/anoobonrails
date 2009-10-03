@@ -4,6 +4,7 @@
 nbproject/
 config/database_yml
 config/deploy.rb
+log/
 db/
 tmp/**/*
 db/*.sqlite3
