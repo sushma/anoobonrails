@@ -1,0 +1,280 @@
+/* CSS anoobonrails
+Created By Anup Nivargi
+*/
+
+html, body {
+  height: 100%;
+  background: #000000;
+  font-size: 100%;
+  font-family:"Trebuchet MS",sans-serif;
+}
+
+h3{
+  color:#e80f48;
+  font-size:100%;
+  padding-bottom:3px;
+}
+
+h4{
+  color:#e80f48;
+  font-size:95%;
+  padding-bottom:2px;
+}
+
+h5{
+  color:#e80f48;
+  font-size:90%;
+  padding-bottom:1px;
+}
+
+#top_menu{
+  height:50px;
+  position:fixed;
+  background-color:#000000;
+  color:#0ed9f1;
+}
+
+#top_menu .menu {
+  float:left;
+  height:50px;
+  background:#1b1e1e;
+}
+
+#top_menu .menu ul {
+  float:left;
+  height:35px;
+  display:inline;
+}
+
+#top_menu .menu ul li {
+  float:left;
+  padding:10px 23px 0px 0px;
+  display :inline;
+}
+
+#top_menu .menu ul li img {
+  float:left;
+  height:32px;
+  width:32px;
+  display :inline;
+  border:0px;
+  padding:0px;
+}
+
+#top_menu .menu ul li a{
+  color:#0ed9f1;
+  font-size:90%;
+  text-decoration:none;
+}
+
+#top_menu .menu ul li a:hover{
+  font-size:110%;
+  color:#f69204;
+  text-decoration:none;
+}
+
+
+#header {
+  background-color:#FFFFFF;
+  height: 200px;
+  border-bottom: 10px;
+}
+
+#header .blank {
+  height:2em;
+  background-color:#000000;
+}
+
+#header .logo {
+  float:left;
+  height:150px;
+  display: inline;
+  background-color: #FFFFFF;
+}
+
+#header .logo img{
+  float:left;
+  margin-top: 55px;
+}
+
+#header .menu {
+  float:left;
+  height:150px;
+  background-color:#FFFFFF;
+}
+
+#header .search{
+  padding-top:30px;
+  height:150px;
+  background-color:#FFFFFF;
+}
+
+#header .search .search_box {
+  height:30px;
+  background:url('/images/search.png') no-repeat;
+}
+
+#header .search .search_box input{
+  height:20px;
+  border:0px;
+  background:transparent;
+  padding-left:10px;
+}
+
+#header .search .rss {
+  padding-top:20px;
+  height:40px;
+}
+
+#header .search .rss a{
+  color:#000000;
+  text-decoration: none;
+  border-bottom:dashed 1px;
+  height:40px;
+}
+
+#header .search .rss .text{
+  padding-top:5px;
+  float:left;
+}
+
+#header .search .rss a img{
+  float:right;
+}
+
+#mid{
+  min-height:1px;
+  height:auto !important;
+  height:1px;
+  background-color: #909090;
+}
+
+#main {
+  height:500px;
+  background-color:#FFFFFF;
+}
+
+#main .content {
+  padding-top:20px;
+  height:500px;
+}
+
+
+#main .content a:hover{
+  color:#58cad7;
+  font-style:italic;
+  text-decoration:underline;
+}
+
+#mail .content a:visited{
+  color:#c0e7ec;
+  text-decoration:underline;
+}
+
+#main .content a{
+  color:#80b4ba;
+  text-decoration:none;
+  border-bottom:1px dashed;
+}
+
+#main .content hr{
+  margin: 0px 0px 0px 0px;
+}
+
+#main .content .heading{
+  font-size:110%;
+  height:30px;
+  border-bottom:1px dotted #000000;
+}
+
+#main .content .info{
+  color:#000000;
+  font-size:70%;
+  height:10px;
+  margin-top:5px;
+}
+
+#main .content .info b{
+  color:#0ed9f1;
+}
+
+#main .content .body{
+  margin-top:20px;
+  height:300px;
+  background-color:inherit;
+}
+
+#main .right{
+  height:500px;
+  padding-top:20px;
+  background-color:#e2f0f6;
+}
+
+#main .right .categories{
+  height:150px;
+  background-color:transparent;
+}
+
+#main .right .tags{
+  height:150px;
+  background-color:transparent;
+}
+
+#main .right ul{
+  float:left;
+}
+
+#main .right ul li{
+  float:left;
+  display:block;
+  font-size:90%;
+}
+
+#main .right ul li a{
+  color:purple;
+  text-decoration: none;
+  border-bottom:dashed 1px;
+}
+
+
+#main .right .heading{
+  padding-left:10px;
+  font-size:110%;
+  height:30px;
+  border-bottom:1px dotted #000000;
+}
+
+#footer{
+  height:50px;
+  background-color:#1b1e1e;
+  color:#0ed9f1;
+  font-size:80%;
+}
+
+#footer .title{
+  height:30px;
+  padding:15px 15px 15px 15px;
+}
+
+#footer .links{
+  height:30px;
+}
+
+#footer .links ul {
+  float:right;
+  height:30px;
+  display:inline;
+}
+
+#footer .links ul li {
+  float:left;
+  padding:15px 5px 5px 5px;
+  display:inline;
+}
+
+#footer .links ul li a{
+  color:#0ed9f1;
+  text-decoration:none;
+  display:block;
+  border-bottom:dotted 1px aqua;
+}

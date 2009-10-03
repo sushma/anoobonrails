@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Ruby on Rails Blog</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <link rel="stylesheet" href="/stylesheets/blueprint/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="/stylesheets/blueprint/print.css" type="text/css" media="print">
+    <link type="text/css" rel="stylesheet" href="/syntaxhighlighter/styles/shCore.css" media="screen"/>
+    <link type="text/css" rel="stylesheet" href="/syntaxhighlighter/styles/shThemeDefault.css" media="screen"/>
+    <link rel="stylesheet" href="/stylesheets/application.css" type="text/css" media="screen">
+    <script type="text/javascript" src="/syntaxhighlighter/scripts/shCore.js"></script>
+    <script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushRuby.js"></script>
+    <script type="text/javascript">
+      SyntaxHighlighter.config.clipboardSwf = '/syntaxhighlighter/scripts/clipboard.swf';
+      SyntaxHighlighter.all();
+    </script>
+    <!--[if IE ]>
+  <link rel="stylesheet" href="/stylesheets/blueprint/ie.css" type="text/css" media="screen, projection">
+  <script src="/javascripts/DD_belatedPNG.js"></script>
+  <script>
+   DD_belatedPNG.fix('img');
+</script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="span-24 last" id="top_menu">
+        <div class="span-6 menu">
+          <ul class="span-6 last">
+            <li><%= link_to 'Home' %></li>
+            <li><%= link_to 'Archive'%></li>
+            <li><%= link_to 'Profile'%></li>
+          </ul>
+        </div>
+      </div>
+      <div class="span-24 last" id="header">
+        <div class="span-24 last blank"></div>
+        <div class="span-12 logo">
+          <img src='/images/logo.png' alt="anoobonrails logo" />
+        </div>
+        <div class="span-6 menu"></div>
+        <div class="span-6 last search">
+          <div class="span-5 last prepend-1 rss">
+            <div class="span-1">
+              <a href="#"><img src='/images/rss.gif' /></a>
+            </div>
+            <div class="span-3 text last">
+              <a href="#">Subscribe</a>
+            </div>
+          </div>
+          <hr class='space'>
+          <div class="span-5 last prepend-1">
+            <div class="search_box">
+              <input type='text' size='12' value='Search...' name='q'>
+            </div>
+          </div>
+        </div>
+      </div><!-- End of Header -->
+      <div class="span-24 last" id='mid'></div>
+      <div class="span-24 last" id="main">
+        <div class="span-18 content">
+          <div class="prepend-1">
+            <div class="span-17 heading last">
+              <div class="span-17 last"><b>Things I forget about Arrays</b></div>
+            </div>
+            <div class="span-17 info last"><b>Posted By</b> Anup Nivargi on 23rd June 2009</div>
+            <div class="span-17 info last"><b>Category:&nbsp;</b> <a href="#">Ruby on Rails</a></div>
+            <div class="span-17 info"><b>Tags:&nbsp;</b><a href="#">first</a>, <a href="#">heading</a>, <a href="#">article</a></div>
+            <div class="span-17 body last">
+              <h3>1 - Inject</h3>
+              <pre class="brush: ruby;">
+                [1,2,3,4].inject{|r,e| r + e }
+                # Output 10
+              </pre>
+            </div>
+          </div>
+        </div>
+        <div class="span-6 last right last">
+          <div class="span-5 heading last"><b>Categories</b></div>
+          <ul class="span-1 categories">
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">Javascript</a></li>
+            <li><a href="#">Ruby</a></li>
+            <li><a href="#">Rails</a></li>
+            <li><a href="#">General</a></li>
+            <li><a href="#">Linux</a></li>
+          </ul>
+          <div class="span-5 heading last"><b>Tags</b></div>
+          <ul class="span-1 tags">
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">Javascript</a></li>
+            <li><a href="#">Ruby</a></li>
+            <li><a href="#">Rails</a></li>
+            <li><a href="#">General</a></li>
+          </ul>
+        </div><!-- End of right -->
+      </div><!-- End of Main -->
+      <div class="span-24 last" id="footer">
+        <div class="span-8 title">
+          anoobonrails &copy;
+        </div>
+        <div class="span-14 last links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Archive</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div><!-- End of footer -->
+    </div><!-- End of Container -->
+  </body>
+</html>
+

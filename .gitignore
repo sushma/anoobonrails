@@ -1,0 +1,15 @@
+.DS\_Store
+*.tmproj
+.tmp*
+nbproject/
+config/database_yml
+config/deploy.rb
+db/
+tmp/**/*
+db/*.sqlite3
+doc/api
+doc/app
+doc/plugins
+doc/*.dot
+vendor/gems/**/ext/**/*
+
