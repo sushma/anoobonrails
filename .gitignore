@@ -2,7 +2,7 @@
 *.tmproj
 .tmp*
 nbproject/
-config/database_yml
+config/database.yml
 config/deploy.rb
 log/
 db/
