@@ -45,7 +45,9 @@ h5{
   height:50px;
   position:fixed;
   background-color:#000000;
+  opacity:0.6;
   color:#0ed9f1;
+  border-bottom:1px #f69204 solid;
 }
 
 #top_menu .menu {
@@ -90,7 +92,6 @@ h5{
 
 #header {
   background-color:#FFFFFF;
-  height: 200px;
   border-bottom: 10px;
 }
 
@@ -101,25 +102,15 @@ h5{
 
 #header .logo {
   float:left;
-  height:150px;
   display: inline;
   background-color: #FFFFFF;
 }
 
 #header .logo img{
   float:left;
-  margin-top: 55px;
-}
-
-#header .menu {
-  float:left;
-  height:150px;
-  background-color:#FFFFFF;
 }
 
 #header .search{
-  padding-top:30px;
-  height:150px;
   background-color:#FFFFFF;
 }
 
@@ -196,7 +187,7 @@ h5{
 #main .content .heading{
   font-size:110%;
   height:30px;
-  border-bottom:1px dotted #000000;
+  border-bottom:2px dotted #000000;
 }
 
 #main .content .info{
@@ -231,7 +222,7 @@ h5{
   background-color:#f9f9f9;
   margin-top:10px;
   padding-bottom:10px;
-  border-bottom:dotted 2px;
+  border-bottom:dotted 1px;
 }
 
 #main .content .comment_box{
