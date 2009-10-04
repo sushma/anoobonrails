@@ -43,9 +43,8 @@ h5{
 
 #top_menu{
   height:50px;
-  position:fixed;
   background-color:#000000;
-  opacity:0.6;
+  opacity:0.8;
   color:#0ed9f1;
   border-bottom:1px #f69204 solid;
 }
@@ -54,6 +53,7 @@ h5{
   float:left;
   height:50px;
   background:#1b1e1e;
+  position:fixed;
 }
 
 #top_menu .menu ul {
@@ -284,6 +284,7 @@ h5{
 }
 
 #footer .links{
+  float:right;
   height:30px;
 }
 
